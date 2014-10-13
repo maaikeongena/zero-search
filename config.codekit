@@ -67,9 +67,9 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "zero-search",
-	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_yellow"
+	"displayValue": "A.S.Adventure - Zero Search Results",
+	"displayValueWasSetByUser": 1,
+	"iconImageName": "pencil_yellow"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,
