@@ -16,7 +16,6 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <link rel="stylesheet" href="http://static.asadventure.com/includes/site/zero-search/styles/css/zero-search.css">
-
 </head>
 
 <body>
@@ -28,7 +27,8 @@
     <div id="zero-search-container">
 
         <div class="search-qeury-text">
-            <p>Je zoekopdracht <span class="search-term-zero"><cfoutput>#url.searchvalue#</cfoutput></span> heeft helaas geen resultaten opgeleverd.</p>
+            <p>Je zoekopdracht 
+            <span id="searchvalueveld" class="search-term-zero"></span> heeft helaas geen resultaten opgeleverd.</p>
         </div>
 
         <div class="zero-search-suggestions">
@@ -51,6 +51,8 @@
         </div> -->        
 
     </div>
+        <script src="javascript/geturl.js"></script>
+
 </body>
 
 </html>
